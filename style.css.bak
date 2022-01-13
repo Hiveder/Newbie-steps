@@ -1,0 +1,158 @@
+body {
+	background:hsl(217, 54%, 11%);
+}
+/*The base box and its components*/
+.first {
+	background:#192E40;
+	display:block;
+	text-align: center;
+	width:21%;
+	height:475px;
+	margin:100px 500px;
+	padding:20px;
+	border-radius:35px;
+	border: 20px solid #091927;
+}
+.first img {
+	width:280px;
+	height:auto;
+	margin:auto;
+	display:block;
+	border-radius:6px;
+}
+.first a .icon {
+	position:absolute;
+	top:140px;
+	width:280px;
+	height:280px;
+	background: rgba(0, 255, 255, 0.4);
+	transition:all 500ms ease-out;
+	opacity: 0;
+	visibility:hidden;
+	items-align:center;
+	border-radius:6px;
+}
+span {
+	position:relative;
+	top:119px;
+}
+
+.first a:hover > .icon {
+	opacity:1;
+	visibility:visible;
+}
+
+/*The Equilibrium word*/
+.second a {
+	margin:19px 2%;
+	color:hsl(0, 0%, 100%);
+	font-family:helvetica;
+	font-size:18px;
+	font-weight:bold;
+	text-align: left;
+	text-decoration:none;
+	display:block;
+}
+a:hover {
+	color:aqua;
+}
+
+/*The short text*/
+.third {
+	margin:0px 2%;
+	color:#7284AB;
+	font-family:helvetica;
+	font-size:14px;
+	text-align:left;
+}
+
+/*Diamond and clock icons, and their texts*/
+.fourth li{
+	list-style:none;
+	display:inline-block;
+	color:#7284AB;
+	font-family:helvetica;
+	font-size:14px;
+	font-weight:;
+}
+.fourth li .diamond {
+	position:absolute;
+	top:530px;
+	left:553px;
+	color:aqua;	
+}
+.fourth li .text_1 {
+	position:absolute;
+	top:0px;
+	left:18px;
+	color:aqua;	
+}
+.fourth li .clock {
+	position:absolute;
+	top:530px;
+	right:528px;
+}
+.fourth li .text_2 {
+	position:relative;
+	top:-4px;
+	right:;
+}
+
+/*Hr´s conditions*/
+hr {
+	border:none;
+	height:0.1px;
+	background-color:#7284AB;
+	margin:-2px;
+	margin-left:8px;
+	margin-right:10px;
+}
+
+/*Avatar image and credit*/
+.fifth {
+	color:#7284AB;
+	font-family:helvetica;
+	font-size:14px;
+}
+.fifth li {
+	list-style:none;
+	display:inline-block;
+}
+.fifth img {
+	width:30px;
+	height:30px;
+	border-radius:30px;
+	border:1px solid hsl(0, 0%, 100%);
+	float:left;
+	margin:10px 0px;
+}
+.fifth li .avatar{
+	position:relative;
+	top: 7px;
+	right:40px;
+}
+.fifth li .name {
+	position:relative;
+	top:25px;
+	right:25px;
+}
+.fifth a {
+	text-decoration:none;
+	color:hsl(0, 0%, 100%);
+}
+.fifth a:hover {
+	color:aqua;
+}
+
+/*Atribitons*/
+.attribution { 
+	font-size: 11px; 
+	text-align: center; 
+}  
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}
+
+
+/*@media {}*/
+ 
